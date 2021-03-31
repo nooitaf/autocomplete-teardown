@@ -14,5 +14,11 @@
     "snippet":"love.audio.getActiveSourceCount()",
     "type":"function",
     "url":"https://love2d.org/wiki/love.audio.getActiveSourceCount"
+  },
+  "love.graphics.newCanvas":{
+    "description":"Creates a new Canvas object for offscreen rendering.\n\nAntialiased Canvases have slightly higher system requirements than normal Canvases. Additionally, the supported maximum number of MSAA samples varies depending on the system. Use love.graphics.getSystemLimit to check.\n\nIf the number of MSAA samples specified is greater than the maximum supported by the system, the Canvas will still be created but only using the maximum supported amount (this includes 0.)",
+    "snippet":"love.graphics.newCanvas(${1:width}, ${2:height}, ${3:format}, ${4:msaa})",
+    "type":"function",
+    "url":"https://love2d.org/wiki/love.graphics.newCanvas"
   }
 }
