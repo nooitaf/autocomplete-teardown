@@ -3,7 +3,7 @@
   "description": "Auto-complete and snippets for Teardown Lua API.",
   "author": "nooitaf",
   "license": "MIT",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "./lib/main",
   "repository": "https://github.com/nooitaf/autocomplete-teardown",
   "engines": {
