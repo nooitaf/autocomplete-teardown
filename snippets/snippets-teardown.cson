@@ -1,5 +1,5 @@
 '.source.lua':
-  'function':
+  'tick':
     'prefix': 'funct'
     'body': """
       ${1:function tick(dt)\\}
@@ -8,6 +8,7 @@
       this line is also included in the snippet tab;
       }
       """
+  'tock':
     'prefix': 'fonct'
     'body': """
       ${1:function tock(dt)\\}
