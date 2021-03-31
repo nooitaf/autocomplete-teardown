@@ -1,0 +1,10 @@
+'.source.lua':
+  'function':
+    'prefix': 'funct'
+    'body': """
+      ${1:function tick(dt)\\}
+        -- every frame
+      end
+      this line is also included in the snippet tab;
+      }
+      """
