@@ -1,0 +1,8 @@
+{
+  "t.accelerometerjoystick":{
+    "default":"true",
+    "description":"Sets whether the device accelerometer on iOS and Android should be exposed as a 3-axis Joystick. Disabling the accelerometer when it's not used may reduce CPU usage.",
+    "type":"boolean",
+    "url":"https://love2d.org/wiki/Config_Files#accelerometerjoystick"
+  }
+}

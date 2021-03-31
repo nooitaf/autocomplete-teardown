@@ -1,0 +1,22 @@
+{
+  "name": "autocomplete-teardown",
+  "description": "Auto-complete and snippets for Teardown Lua API.",
+  "author": "nooitaf",
+  "license": "MIT",
+  "version": "0.0.1",
+  "main": "./lib/main",
+  "repository": "https://github.com/nooitaf/autocomplete-teardown",
+  "engines": {
+    "atom": "^1.0.9"
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getAutoCompleteProvider"
+      }
+    }
+  },
+  "dependencies": {
+    "fuzzaldrin": "^2.1.0"
+  }
+}

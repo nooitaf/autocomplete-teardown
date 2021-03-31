@@ -1,0 +1,18 @@
+{
+  "love":{
+    "description":"The root LOVE module.",
+    "type":"module",
+    "url":"https://love2d.org/wiki/love"
+  },
+  "love.audio":{
+    "description":"Provides an interface to create noise with the user's speakers.",
+    "type":"module",
+    "url":"https://love2d.org/wiki/love.audio"
+  },
+  "love.audio.getActiveSourceCount":{
+    "description":"Gets the current number of simultaneously playing sources.",
+    "snippet":"love.audio.getActiveSourceCount()",
+    "type":"function",
+    "url":"https://love2d.org/wiki/love.audio.getActiveSourceCount"
+  }
+}
