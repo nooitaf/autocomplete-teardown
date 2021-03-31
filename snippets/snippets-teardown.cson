@@ -8,3 +8,14 @@
       this line is also included in the snippet tab;
       }
       """
+      
+'.source.lua':
+  'function':
+    'prefix': 'fonct'
+    'body': """
+      ${1:function tock(dt)\\}
+        -- every frame
+      end
+      this line is also included in the snippet tab;
+      }
+      """
