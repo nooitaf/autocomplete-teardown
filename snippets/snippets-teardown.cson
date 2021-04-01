@@ -1,19 +1,17 @@
 '.source.lua':
-  'tick':
-    'prefix': 'funct'
+  'Function Tick':
+    'prefix': 'tick'
     'body': """
-      ${1:function tick(dt)\\}
-        -- every frame
+      function tick(dt)
+        -- every tick
+        $1
       end
-      this line is also included in the snippet tab;
-      }
-      """
-  'tock':
-    'prefix': 'fonct'
+    """
+  'Function Update':
+    'prefix': 'update'
     'body': """
-      ${1:function tock(dt)\\}
-        -- every frame
+      function update(dt)
+        -- update every frame
+        $1
       end
-      this line is also included in the snippet tab;
-      }
-      """
+    """
