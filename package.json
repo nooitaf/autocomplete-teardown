@@ -1,15 +1,20 @@
 {
   "name": "autocomplete-teardown",
-  "description": "Auto-complete and snippets for Teardown Lua API.",
-  "author": "nooitaf",
-  "license": "MIT",
   "version": "1.1.1",
-  "homepage": "https://github.com/nooitaf/autocomplete-teardown",
+  "description": "Autocomplete snippets for Teardown Lua API.",
+  "keywords": [
+    "teardowngame",
+    "lua"
+  ],  
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/nooitaf/autocomplete-teardown.git"
   },
+  "author": "nooitaf",
+  "license": "MIT",
+  "homepage": "https://github.com/nooitaf/autocomplete-teardown",
   "engines": {
-    "atom": "^1.0.9"
+    "atom": ">=1.25.0"
   }
 }
