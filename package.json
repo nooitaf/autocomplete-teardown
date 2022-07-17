@@ -4,19 +4,12 @@
   "author": "nooitaf",
   "license": "MIT",
   "version": "1.1.0",
-  "main": "./lib/main",
-  "repository": "https://github.com/nooitaf/autocomplete-teardown",
+  "homepage": "https://github.com/nooitaf/autocomplete-teardown",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nooitaf/autocomplete-teardown.git"
+  },
   "engines": {
     "atom": "^1.0.9"
-  },
-  "providedServices": {
-    "autocomplete.provider": {
-      "versions": {
-        "2.0.0": "getAutoCompleteProvider"
-      }
-    }
-  },
-  "dependencies": {
-    "fuzzaldrin": "^2.1.0"
   }
 }
